@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <CylinderTarget name="AdWrap" sideLength="0.267589"/>
+        <ImageTarget name="WillieMaysNYM" size="0.063500 0.087581"/>
+        <ImageTarget name="WillieMaysCatch" size="0.063500 0.087077"/>
+        <ImageTarget name="WillieMays30-30" size="0.063500 0.088760"/>
+        <ImageTarget name="LittleZappy" size="0.087122 0.116516"/>
+        <ImageTarget name="WillieMays" size="0.088900 0.063613"/>
+        <ImageTarget name="Garmin.Left" size="0.079375 0.161920"/>
+        <ImageTarget name="Garmin.Bottom" size="0.165100 0.079401"/>
+        <ImageTarget name="Garmin.Back" size="0.165100 0.161929"/>
+        <ImageTarget name="Garmin.Front" size="0.165100 0.162690"/>
+        <ImageTarget name="Garmin.Top" size="0.165100 0.079356"/>
+        <ImageTarget name="Garmin.Right" size="0.079375 0.161929"/>
+        <ImageTarget name="PUR.Left" size="0.076200 0.193662"/>
+        <ImageTarget name="PUR.Bottom" size="0.184150 0.076195"/>
+        <ImageTarget name="PUR.Back" size="0.184150 0.193613"/>
+        <ImageTarget name="PUR.Front" size="0.184150 0.193683"/>
+        <ImageTarget name="PUR.Top" size="0.184150 0.076222"/>
+        <ImageTarget name="PUR.Right" size="0.076200 0.193673"/>
+        <MultiTarget name="Garmin">
+            <Part name="Garmin.Left" translation="-0.08254999667406082 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Garmin.Right" translation="0.08254999667406082 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Garmin.Front" translation="0 0 0.03968749940395355" rotation="AD: 1 0 0 0"/>
+            <Part name="Garmin.Back" translation="0 0 -0.03968749940395355" rotation="AD: 0 1 0 180"/>
+            <Part name="Garmin.Top" translation="0 0.08096250146627426 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Garmin.Bottom" translation="0 -0.08096250146627426 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="PUR">
+            <Part name="PUR.Left" translation="-0.09207499772310257 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="PUR.Right" translation="0.09207499772310257 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="PUR.Front" translation="0 0 0.038100000470876694" rotation="AD: 1 0 0 0"/>
+            <Part name="PUR.Back" translation="0 0 -0.038100000470876694" rotation="AD: 0 1 0 180"/>
+            <Part name="PUR.Top" translation="0 0.09683749824762344 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="PUR.Bottom" translation="0 -0.09683749824762344 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>

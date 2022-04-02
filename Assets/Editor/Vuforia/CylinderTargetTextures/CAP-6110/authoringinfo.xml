@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VuforiaUnityInfo version="7.0">
+    <TargetSet version="5.0" toolVersion="2.8.0">
+        <CylinderTarget name="AdWrap" version="3.0" targetId="1b154291034a491daa6f8bc213137f06" sideLength="0.267589" topDiameter="0.108137" bottomDiameter="0.108137" sideImage="AdWrap.Body_scaled.jpg"/>
+    </TargetSet>
+</VuforiaUnityInfo>
